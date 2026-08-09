@@ -1,0 +1,98 @@
+# --- Dataset (large, downloaded from Kaggle; do not commit) ---
+data/biome_*/
+data/*.zip
+data/*.tar
+data/*.tar.gz
+CLAUDE.md
+specifikacija.txt
+
+# --- Report scratch (Serbian IEEE writeup, generated locally) ---
+izvestaj_tmp/
+
+# --- Training outputs ---
+artifacts/
+checkpoints/
+runs/
+logs/
+wandb/
+mlruns/
+lightning_logs/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.h5
+*.tflite
+
+# --- Split manifests generated locally (optional: keep if you want reproducibility) ---
+# splits/*.csv
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Package managers
+poetry.lock
+uv.lock
+Pipfile.lock
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+# Uncomment if you want to strip notebook outputs before committing:
+# *.ipynb
+
+# --- Testing / coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# --- Type checkers / linters ---
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Env / secrets ---
+.env
+.env.local
+*.local
+kaggle.json
+
+# --- Misc ---
+*.log
+*.tmp
+splits/*.csv

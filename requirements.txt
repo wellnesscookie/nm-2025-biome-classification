@@ -1,0 +1,16 @@
+# Core
+torch>=2.2
+torchvision>=0.17
+numpy>=1.26
+pillow>=10.0
+
+# Data / metrics / plots
+scikit-learn>=1.4
+pandas>=2.1
+matplotlib>=3.8
+seaborn>=0.13
+tqdm>=4.66
+
+# Notebook
+jupyter>=1.0
+ipykernel>=6.29
